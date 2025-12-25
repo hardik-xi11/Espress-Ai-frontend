@@ -2,7 +2,7 @@ import React from 'react';
 
 const ChatMessage = ({ message, isUser }) => {
     return (
-        <div className={`flex w-full ${isUser ? 'justify-end' : 'justify-start'} mb-6 px-4 md:px-0`}>
+        <div className={`flex w-full ${isUser ? 'justify-end' : 'justify-start'} mb-6 md:pb-20 px-4 md:px-0`}>
             <div className={`max-w-[85%] md:max-w-[75%] flex ${isUser ? 'flex-row-reverse' : 'flex-row'} gap-4`}>
 
                 {/* Avatar - Minimalist Gradient */}

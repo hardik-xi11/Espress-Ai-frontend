@@ -17,11 +17,11 @@ const ChatLayout = ({ children }) => {
                 <div className="absolute top-0 left-0 right-0 h-20 flex items-center justify-between px-8 z-50 pointer-events-none">
                     <h1 className="text-xl font-bold tracking-tight text-white/90 flex items-center gap-2 pointer-events-auto">
                         <div className="w-2 h-2 rounded-full bg-blue-500 shadow-[0_0_15px_rgba(59,130,246,0.8)]"></div>
-                        Hardware AI
+                        Espress AI
                     </h1>
                 </div>
 
-                <div className="flex-1 relative w-full max-w-4xl mx-auto flex flex-col">
+                <div className="flex-1 relative w-full max-w-screen mx-auto flex flex-col">
                     {children}
                 </div>
             </main>

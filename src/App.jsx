@@ -110,7 +110,7 @@ function App() {
           ))}
           {isLoading && messages[messages.length - 1]?.isUser && (
             // Loading indicator
-            <div className="flex items-center gap-2 p-4 ml-4 opacity-50">
+            <div className="flex items-center gap-2 p-4 ml-4 pb-12 sm:pb-34 opacity-50">
               <span className="w-2 h-2 bg-blue-500 rounded-full animate-bounce"></span>
               <span className="w-2 h-2 bg-blue-500 rounded-full animate-bounce delay-75"></span>
               <span className="w-2 h-2 bg-blue-500 rounded-full animate-bounce delay-150"></span>
