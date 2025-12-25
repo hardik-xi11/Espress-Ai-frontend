@@ -1,5 +1,9 @@
 {
     "name": "frontend",
-    "pages_build_output_dir": "dist",
+    "main": "src/worker.js",
+    "assets": {
+        "directory": "dist",
+        "binding": "ASSETS"
+    },
     "compatibility_date": "2024-12-26"
 }
