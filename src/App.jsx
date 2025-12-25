@@ -23,7 +23,8 @@ function App() {
 
     try {
       // Connect to Spring Boot Backend via Proxy
-      const response = await fetch(`/chat?prompt=${encodeURIComponent(text)}`);
+      const baseUrl = import.meta.env.VITE_API_TARGET;
+      const response = await fetch(`${baseUrl}/chat?prompt=${encodeURIComponent(text)}`);
 
       const contentType = response.headers.get("content-type");
       if (contentType && contentType.includes("text/html")) {
