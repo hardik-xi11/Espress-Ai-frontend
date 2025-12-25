@@ -1,5 +1,5 @@
 {
-    "name": "frontend",
+    "name": "espress-ai-frontend",
     "main": "src/worker.js",
     "assets": {
         "directory": "dist",
